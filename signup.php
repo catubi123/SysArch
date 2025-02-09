@@ -43,19 +43,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="w3.css">
 </head>
 <body class="w3-cyan" >
-    <div class="w3-card-4 w3-white w3-padding w3-round-xxlarge w3-animate-top	" style="max-width:420px;margin:auto;margin-top:30px;">
+    <div class="w3-card-4 w3-white w3-padding w3-round-xxlarge w3-animate-top" style="max-width:420px;margin:auto;margin-top:30px;">
         <h2 class="w3-center">Registration</h2>
         <form method="post">
             <label>IDNO</label>
-            <input class="w3-input w3-border w3-large" type="number" max="1000" name="id" required>
+            <input class="w3-input w3-border w3-large w3-border-black" type="number" max="1000" name="id" required>
             <label>Lastname</label>
-            <input class="w3-input w3-border w3-large" type="text" name="lname" required>
+            <input class="w3-input w3-border w3-large w3-border-black " type="text" name="lname" required>
             <label>Firstname</label>
-            <input class="w3-input w3-border w3-large" type="text" name="fname" required>
+            <input class="w3-input w3-border w3-large w3-border-black" type="text" name="fname" required>
             <label>MiddleName</label>
-            <input class="w3-input w3-border w3-large" type="text" name="MName" required>
+            <input class="w3-input w3-border w3-large w3-border-black" type="text" name="MName" required>
             <label>Course</label>
-            <select class="w3-input w3-border  w3-large" name="Course" required>
+            <select class="w3-input w3-border  w3-large w3-border-black"  name="Course" required>
             <option value="">Select Course</option>
             <option value="BSED">BSED</option>
             <option value="BSIT">BSIT</option>
@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <option value="BPED">BPED</option>
             </select>
             <label>Yr/Level</label>
-            <select class="w3-input w3-border  w3-large" name="Level" required>
+            <select class="w3-input w3-border  w3-large w3-border-black" name="Level" required>
             <option value="">Select Level </option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -74,9 +74,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <option value="4">4</option>
             </select>
             <label>Username</label>
-            <input class="w3-input w3-border w3-large" type="text" name="username" required>
+            <input class="w3-input w3-border w3-large w3-border-black" type="text" name="username" required>
             <label>password</label>
-            <input class="w3-input w3-border w3-large" type="password" name="password" required>
+            <input class="w3-input w3-border w3-large w3-border-black" type="password" name="password" required>
 
             <p><button class="w3-button w3-cyan w3-round-xlarge">Register</button></p>
 
